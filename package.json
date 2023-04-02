@@ -1,0 +1,20 @@
+{
+  "name": "simple-webpush-example",
+  "version": "1.0.0",
+  "description": "Simple web push notification",
+  "main": "index.js",
+  "scripts": {
+    "push": "node webpusher.js",
+  },
+  "keywords": [
+    "web push","example"
+  ],
+  "author": "Sundar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "web-push": "^3.5.0"
+  }
+}
